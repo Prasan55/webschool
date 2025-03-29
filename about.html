@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Shree Salme Secondary School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1a5276;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo {
+            height: 85px;
+            margin-right: 25px;
+        }
+        .header-text {
+            text-align: center;
+        }
+        nav {
+            background-color: #2874a6;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #1a5276;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .hero {
+            background-image:  url("C:\\Users\\acer\\OneDrive\\Pictures\\school2.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 530px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+        }
+        
+        .hero h1 {
+            position: relative;
+            z-index: 1;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+            padding: 20px;
+            
+    
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #1a5276;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 30px;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            text-align: left;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .footer-section {
+            margin: 10px 20px;
+        }
+        .footer-section h3 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .history-timeline {
+            position: relative;
+            padding-left: 30px;
+            margin-top: 20px;
+        }
+        .history-timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: #2874a6;
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -28px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #1a5276;
+            border: 2px solid #2874a6;
+        }
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .value-card {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .value-card h4 {
+            color: #1a5276;
+            margin-top: 0;
+            border-bottom: 2px solid #2874a6;
+            padding-bottom: 10px;
+        }
+        .facilities {
+            margin-top: 30px;
+        }
+        .facility {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .facility-icon {
+            font-size: 2em;
+            color: #1a5276;
+            margin-right: 20px;
+            min-width: 50px;
+            text-align: center;
+        }
+        .fa-facebook {
+            transition: transform 0.3s, color 0.3s;
+}
+        .fa-facebook:hover {
+            transform: scale(1.2);
+            color: #18181a; /* Facebook blue color on hover */
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\acer\Downloads\ChatGPT Image Mar 28, 2025, 09_16_14 PM.png" alt="Shree Salme Secondary School Logo" class="logo">
+        <div class="header-text">
+            <h1>Shree Salme Secondary School</h1>
+            <h1>श्री साल्मे माध्यमिक विद्यालय</h1>
+            <p>Kispang-4, Salme, Nuwakot, Nepal</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            
+        </ul>
+    </nav>
+    
+    <div class="hero">
+        <h1>Our Story, Our Mission</h1>
+    </div>
+    
+    <div class="container">
+        <section class="section">
+            <h2>About Our School</h2>
+            <p>Founded in 2017, Shree Salme Secondary School has been a beacon of quality education in Nuwakot, Nepal. For over 8 years, we have been committed to nurturing young minds and preparing them for the challenges of tomorrow through a balanced approach to academics, character development, and extracurricular activities.</p>
+            
+            <h3>Our Journey</h3>
+            <div class="history-timeline">
+                <div class="timeline-item">
+                    <h4>2017 - Humble Beginnings</h4>
+                    <p>Established with just 3 classrooms and 5 teachers, serving primary level students in the Nuwakot community.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>2018 - Expansion to Secondary Level</h4>
+                    <p>Upgraded to secondary school status, offering complete education from grade 1 to 10.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>2020 - Digital Transformation</h4>
+                    <p>Implemented computer education program and smart classroom technology.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>2025 - Present Day</h4>
+                    <p>Serving over 500 students with 25 qualified teachers and comprehensive facilities.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Our Educational Philosophy</h2>
+            <p>At Shree Salme Secondary School, we believe in holistic education that develops the mind, body, and character of each student. Our approach combines:</p>
+            
+            <div class="values-grid">
+                <div class="value-card">
+                    <h4>Academic Excellence</h4>
+                    <p>Rigorous curriculum aligned with national standards, taught by qualified educators using modern pedagogy.</p>
+                </div>
+                <div class="value-card">
+                    <h4>Character Building</h4>
+                    <p>Emphasis on moral values, discipline, and social responsibility through various programs.</p>
+                </div>
+                <div class="value-card">
+                    <h4>Practical Skills</h4>
+                    <p>Development of life skills and vocational abilities to prepare students for real-world challenges.</p>
+                </div>
+                <div class="value-card">
+                    <h4>Cultural Preservation</h4>
+                    <p>Celebration of Nepali heritage while embracing global perspectives.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>School Facilities</h2>
+            <p>Our campus provides a conducive learning environment with modern amenities:</p>
+            
+            <div class="facilities">
+                <div class="facility">
+                    <div class="facility-icon">🏫</div>
+                    <div>
+                        <h4>Spacious Classrooms</h4>
+                        <p>Well-ventilated, well-lit classrooms equipped with modern teaching aids.</p>
+                    </div>
+                </div>
+                <div class="facility">
+                    <div class="facility-icon">🔬</div>
+                    <div>
+                        <h4>Science Laboratory</h4>
+                        <p>Fully equipped lab for physics, chemistry, and biology experiments.</p>
+                    </div>
+                </div>
+                <div class="facility">
+                    <div class="facility-icon">💻</div>
+                    <div>
+                        <h4>Computer Lab</h4>
+                        <p>Modern computers with internet access for digital literacy training.</p>
+                    </div>
+                </div>
+                <div class="facility">
+                    <div class="facility-icon">📚</div>
+                    <div>
+                        <h4>Library</h4>
+                        <p>Extensive collection of textbooks, reference books, and periodicals.</p>
+                    </div>
+                </div>
+                <div class="facility">
+                    <div class="facility-icon">⚽</div>
+                    <div>
+                        <h4>Sports Ground</h4>
+                        <p>Playing area for football, volleyball, and other physical activities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Our Achievements</h2>
+            <ul>
+                <li>Consistently high pass rates in Secondary Education Examination (SEE)</li>
+                <li>Multiple district-level awards in academic competitions</li>
+                <li>Recognition for community service initiatives</li>
+                <li>Successful alumni in various professional fields</li>
+                <li>Certified "Green School" for environmental initiatives</li>
+            </ul>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><strong>Address:</strong> Kispang-4, Salme, Nuwakot, Nepal, 44900</p>
+                <p><strong>Mobile:</strong> 985-1348520</p>
+                <p><strong>Email:</strong> salmemaviedu063@gmail.com</p>
+                
+                <!-- Facebook Icon Link -->
+                <div style="margin-top: 15px;">
+                    <a href="https://www.facebook.com/profile.php?id=100094973591242" target="_blank" style="color: white; font-size: 24px;">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <p><a href="index.html" style="color: white;">Home</a></p>
+                <p><a href="about.html" style="color: white;">About Us</a></p>
+                <p><a href="academics.html" style="color: white;">Academics</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>School Hours</h3>
+                <p>Sunday-Friday: 9:00 AM - 4:00 PM</p>
+                <p>Saturday: Closed</p>
+                <p>Office Hours: 9:00 AM - 5:00 PM</p>
+            </div>
+        </div>
+        <p>&copy; 2025 Shree Salme Secondary School. All rights reserved. CompileMIT</p>
+    </footer>
+</body>
+</html>
